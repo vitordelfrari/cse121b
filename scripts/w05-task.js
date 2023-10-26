@@ -1,4 +1,5 @@
 /* W05: Programming Tasks */
+document.addEventListener("DOMContentLoaded", function () {
 
 /* Declare and initialize global variables */
 const mainElement = document.querySelector("main");
@@ -82,3 +83,4 @@ sortByElement.addEventListener("change", () => {
 
 /* Initial call to getTemples to load the data */
 getTemples();
+});
